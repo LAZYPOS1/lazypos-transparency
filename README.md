@@ -2,7 +2,7 @@
 
 Figures are read straight from the Solana blockchain and updated daily.
 
-Last updated: 2026-11-18 03:48 UTC and 2026-11-17 21:48 CST (US Central). Supply slot 470790085.
+Last updated: 2026-11-18 21:42 UTC and 2026-11-18 15:42 CST (US Central). Supply slot 471088888.
 
 | Metric | Tokens | Share |
 | --- | ---: | --- |
@@ -46,7 +46,7 @@ Largest token accounts were taken from a full getProgramAccounts scan of this mi
 
 | # | Token account | Owner | Amount | % of supply | Label |
 | ---: | --- | --- | ---: | ---: | --- |
-| 1 | `CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n` | `7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn` | 270,804,907.806734 | 30.67% | Liquidity pool (PumpSwap) |
+| 1 | `CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n` | `7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn` | 270,673,678.924022 | 30.65% | Liquidity pool (PumpSwap) |
 | 2 | `4Sk5rB4TBFWvkDWFspbK3JWHwjsyUPiQSrcbcnTLJheD` | `Fi5k3MW1ycvx3cq2sXA7SxYyUPErjkZMfLNuGgA7fWU1` | 101,000,000 | 11.44% | Jupiter Lock |
 | 3 | `36A7sLiaLaiYBBcXeGWaTutSTarG98gVAquG9Uoev6sE` | `F9pyB4ckuzDzyA5XZbiSfBT6uDNWWyTBxHiG9RepjkrG` | 100,000,000 | 11.33% | Jupiter Lock |
 | 4 | `8pmngsdWyttyJPXoxTPLo4UYN9WgWHEYyouRgGNRAXvg` | `Gg2FhWHQwQAkjgGdEsq1JKWpPXVCtHL4FAwXpfe8HMyh` | 56,375,349.388779 | 6.38% | Jupiter Lock |

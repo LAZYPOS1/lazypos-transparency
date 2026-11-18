@@ -9,9 +9,9 @@
   },
   "updated_at": {
     "date_utc": "2026-11-18",
-    "utc": "2026-11-18 03:48 UTC",
-    "us_central": "2026-11-17 21:48 CST",
-    "unix": 1794973709
+    "utc": "2026-11-18 21:42 UTC",
+    "us_central": "2026-11-18 15:42 CST",
+    "unix": 1795038165
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 470790085
+    "slot": 471088888
   },
   "burned": {
     "raw": "117027602306608",
@@ -644,9 +644,9 @@
       "token_account": "CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n",
       "owner": "7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn",
       "owner_program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
-      "amount_raw": "270804907806734",
-      "amount": "270804907.806734",
-      "percent_of_supply": "30.67",
+      "amount_raw": "270673678924022",
+      "amount": "270673678.924022",
+      "percent_of_supply": "30.65",
       "label": "Liquidity pool (PumpSwap)"
     },
     {
