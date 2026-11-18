@@ -2,7 +2,7 @@
 
 Figures are read straight from the Solana blockchain and updated daily.
 
-Last updated: 2026-11-18 03:37 UTC and 2026-11-17 21:37 CST (US Central). Supply slot 470786983.
+Last updated: 2026-11-18 03:48 UTC and 2026-11-17 21:48 CST (US Central). Supply slot 470790085.
 
 | Metric | Tokens | Share |
 | --- | ---: | --- |

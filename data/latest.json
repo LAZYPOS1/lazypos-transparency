@@ -9,9 +9,9 @@
   },
   "updated_at": {
     "date_utc": "2026-11-18",
-    "utc": "2026-11-18 03:37 UTC",
-    "us_central": "2026-11-17 21:37 CST",
-    "unix": 1794973042
+    "utc": "2026-11-18 03:48 UTC",
+    "us_central": "2026-11-17 21:48 CST",
+    "unix": 1794973709
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 470786983
+    "slot": 470790085
   },
   "burned": {
     "raw": "117027602306608",
