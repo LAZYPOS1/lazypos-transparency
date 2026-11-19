@@ -8,10 +8,10 @@
     "original_supply_raw": "1000000000000000"
   },
   "updated_at": {
-    "date_utc": "2026-11-18",
-    "utc": "2026-11-18 21:42 UTC",
-    "us_central": "2026-11-18 15:42 CST",
-    "unix": 1795038165
+    "date_utc": "2026-11-19",
+    "utc": "2026-11-19 15:41 UTC",
+    "us_central": "2026-11-19 09:41 CST",
+    "unix": 1795102914
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 471088888
+    "slot": 471389793
   },
   "burned": {
     "raw": "117027602306608",
@@ -644,9 +644,9 @@
       "token_account": "CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n",
       "owner": "7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn",
       "owner_program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
-      "amount_raw": "270673678924022",
-      "amount": "270673678.924022",
-      "percent_of_supply": "30.65",
+      "amount_raw": "268874813765500",
+      "amount": "268874813.7655",
+      "percent_of_supply": "30.45",
       "label": "Liquidity pool (PumpSwap)"
     },
     {
@@ -811,22 +811,22 @@
     },
     {
       "rank": 18,
+      "token_account": "Fc3TfESvcEmNt9T9bYwj9KUuVwn3yqP842ctaJNMe23s",
+      "owner": "9jSRcv5D6NKYRVoVu8vT9vKLNwcJXneVwsHw2R1nkXHf",
+      "owner_program": "11111111111111111111111111111111",
+      "amount_raw": "5462595939561",
+      "amount": "5462595.939561",
+      "percent_of_supply": "0.62",
+      "label": null
+    },
+    {
+      "rank": 19,
       "token_account": "6Sb1p5YV5XnYP3or1vAZSw66W5f8xSqGeUDnFihSx2ny",
       "owner": "tTvpTo2EkdupVkUq9DF476MHHWce9J6WH11ojK8AKQQ",
       "owner_program": "11111111111111111111111111111111",
       "amount_raw": "5304180146695",
       "amount": "5304180.146695",
       "percent_of_supply": "0.60",
-      "label": null
-    },
-    {
-      "rank": 19,
-      "token_account": "Fc3TfESvcEmNt9T9bYwj9KUuVwn3yqP842ctaJNMe23s",
-      "owner": "9jSRcv5D6NKYRVoVu8vT9vKLNwcJXneVwsHw2R1nkXHf",
-      "owner_program": "11111111111111111111111111111111",
-      "amount_raw": "5193854494073",
-      "amount": "5193854.494073",
-      "percent_of_supply": "0.59",
       "label": null
     },
     {

@@ -2,7 +2,7 @@
 
 Figures are read straight from the Solana blockchain and updated daily.
 
-Last updated: 2026-11-18 21:42 UTC and 2026-11-18 15:42 CST (US Central). Supply slot 471088888.
+Last updated: 2026-11-19 15:41 UTC and 2026-11-19 09:41 CST (US Central). Supply slot 471389793.
 
 | Metric | Tokens | Share |
 | --- | ---: | --- |
@@ -46,7 +46,7 @@ Largest token accounts were taken from a full getProgramAccounts scan of this mi
 
 | # | Token account | Owner | Amount | % of supply | Label |
 | ---: | --- | --- | ---: | ---: | --- |
-| 1 | `CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n` | `7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn` | 270,673,678.924022 | 30.65% | Liquidity pool (PumpSwap) |
+| 1 | `CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n` | `7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn` | 268,874,813.7655 | 30.45% | Liquidity pool (PumpSwap) |
 | 2 | `4Sk5rB4TBFWvkDWFspbK3JWHwjsyUPiQSrcbcnTLJheD` | `Fi5k3MW1ycvx3cq2sXA7SxYyUPErjkZMfLNuGgA7fWU1` | 101,000,000 | 11.44% | Jupiter Lock |
 | 3 | `36A7sLiaLaiYBBcXeGWaTutSTarG98gVAquG9Uoev6sE` | `F9pyB4ckuzDzyA5XZbiSfBT6uDNWWyTBxHiG9RepjkrG` | 100,000,000 | 11.33% | Jupiter Lock |
 | 4 | `8pmngsdWyttyJPXoxTPLo4UYN9WgWHEYyouRgGNRAXvg` | `Gg2FhWHQwQAkjgGdEsq1JKWpPXVCtHL4FAwXpfe8HMyh` | 56,375,349.388779 | 6.38% | Jupiter Lock |
@@ -63,8 +63,8 @@ Largest token accounts were taken from a full getProgramAccounts scan of this mi
 | 15 | `C6ZCS4uRcBiGnGUEHNb6q4qKbJC9fKTEZKTmVehAqQKm` | `iwYecboj4ndmXFJesGX5ojcPyxH8X9exX4eJSoHgoAo` | 6,708,337.166659 | 0.76% | Jupiter Lock |
 | 16 | `5PVsW1G398TS7UhX28qpG8Mdvua4DBY5F46B4SDncXtW` | `83WKDEjBzQtZDLWYHXJfhfh5QxgU4FfMwDGY8ojc6hBq` | 5,833,337.5 | 0.66% | Jupiter Lock |
 | 17 | `45xxmToxGLYT2hpLnjaMqK8QLMnc3c7VdPTfQeiaSV4D` | `4mEe3AnkBJ4w8WCrwd1DK1APrSt5NMUuQDDZ3J9HVpyr` | 5,500,004.583326 | 0.62% | Jupiter Lock |
-| 18 | `6Sb1p5YV5XnYP3or1vAZSw66W5f8xSqGeUDnFihSx2ny` | `tTvpTo2EkdupVkUq9DF476MHHWce9J6WH11ojK8AKQQ` | 5,304,180.146695 | 0.60% | — |
-| 19 | `Fc3TfESvcEmNt9T9bYwj9KUuVwn3yqP842ctaJNMe23s` | `9jSRcv5D6NKYRVoVu8vT9vKLNwcJXneVwsHw2R1nkXHf` | 5,193,854.494073 | 0.59% | — |
+| 18 | `Fc3TfESvcEmNt9T9bYwj9KUuVwn3yqP842ctaJNMe23s` | `9jSRcv5D6NKYRVoVu8vT9vKLNwcJXneVwsHw2R1nkXHf` | 5,462,595.939561 | 0.62% | — |
+| 19 | `6Sb1p5YV5XnYP3or1vAZSw66W5f8xSqGeUDnFihSx2ny` | `tTvpTo2EkdupVkUq9DF476MHHWce9J6WH11ojK8AKQQ` | 5,304,180.146695 | 0.60% | — |
 | 20 | `3g6h9h64nEuVdafNA5xZcDNg6zJyPKG26pGSC7SSy7M7` | `9qZCyEWdmZhyC8S4UJEUnjGDbw8tkZ6rmFf3BGzHmZr3` | 4,166,670.83333 | 0.47% | Jupiter Lock |
 
 ## Check the source
