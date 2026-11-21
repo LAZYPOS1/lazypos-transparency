@@ -8,10 +8,10 @@
     "original_supply_raw": "1000000000000000"
   },
   "updated_at": {
-    "date_utc": "2026-11-20",
-    "utc": "2026-11-20 21:41 UTC",
-    "us_central": "2026-11-20 15:41 CST",
-    "unix": 1795210905
+    "date_utc": "2026-11-21",
+    "utc": "2026-11-21 20:23 UTC",
+    "us_central": "2026-11-21 14:23 CST",
+    "unix": 1795292589
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 471891714
+    "slot": 472271488
   },
   "burned": {
     "raw": "117027602306608",
@@ -29,9 +29,9 @@
     "definition": "original supply minus current getTokenSupply. Not a holder balance and not a Jupiter escrow."
   },
   "jupiter_lock": {
-    "locked_raw": "472717032805321",
-    "locked_ui": "472717032.805321",
-    "percent_of_supply": "53.54",
+    "locked_raw": "472560868402582",
+    "locked_ui": "472560868.402582",
+    "percent_of_supply": "53.52",
     "escrow_count_with_balance": 14,
     "zero_balance_escrow_count": 1,
     "vesting_accounts_scanned": 15,
@@ -131,11 +131,11 @@
         "token_accounts": [
           {
             "address": "8pmngsdWyttyJPXoxTPLo4UYN9WgWHEYyouRgGNRAXvg",
-            "amount_raw": "56375349388779",
-            "amount": "56375349.388779"
+            "amount_raw": "56219184986040",
+            "amount": "56219184.98604"
           }
         ],
-        "amount_raw": "56375349388779",
+        "amount_raw": "56219184986040",
         "schedule_decoded": true,
         "recipient": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
         "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
@@ -150,18 +150,18 @@
           "amount_per_period_raw": "156164402739",
           "amount_per_period": "156164.402739",
           "number_of_periods": 365,
-          "total_claimed_amount_raw": "624657610956",
-          "total_claimed_amount": "624657.610956",
+          "total_claimed_amount_raw": "780822013695",
+          "total_claimed_amount": "780822.013695",
           "cancelled_at": 0,
           "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
-          "unlocked_amount_raw": "624657610956",
-          "unlocked_amount": "624657.610956",
-          "periods_elapsed": 4,
+          "unlocked_amount_raw": "780822013695",
+          "unlocked_amount": "780822.013695",
+          "periods_elapsed": 5,
           "fully_unlocked_utc": "2033-10-15 18:40 UTC",
-          "next_unlock_utc": "2026-11-21 18:40 UTC"
+          "next_unlock_utc": "2026-11-28 18:40 UTC"
         },
-        "schedule_text": "Cliff 2026-10-17 18:40 UTC unlocks 0; then 156,164.402739 every 7 days for 365 periods; fully unlocks 2033-10-15 18:40 UTC; next unlock 2026-11-21 18:40 UTC; claimed 624,657.610956",
-        "percent_of_supply": "6.38"
+        "schedule_text": "Cliff 2026-10-17 18:40 UTC unlocks 0; then 156,164.402739 every 7 days for 365 periods; fully unlocks 2033-10-15 18:40 UTC; next unlock 2026-11-28 18:40 UTC; claimed 780,822.013695",
+        "percent_of_supply": "6.37"
       },
       {
         "escrow": "51EH7rNnbU5ZRvcCNNDuk16kevwbQE22uV9AZsRan7om",
@@ -633,9 +633,9 @@
     ]
   },
   "circulating_estimate": {
-    "raw": "410255364888071",
-    "ui": "410255364.888071",
-    "percent_of_supply": "46.46",
+    "raw": "410411529290810",
+    "ui": "410411529.29081",
+    "percent_of_supply": "46.48",
     "definition": "current supply minus Jupiter Lock token-account balances. Estimate: staking pools are not separately identified, and liquidity-pool tokens are not subtracted."
   },
   "holders_top20": [
@@ -644,9 +644,9 @@
       "token_account": "CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n",
       "owner": "7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn",
       "owner_program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
-      "amount_raw": "268874813765500",
-      "amount": "268874813.7655",
-      "percent_of_supply": "30.45",
+      "amount_raw": "267278465113267",
+      "amount": "267278465.113267",
+      "percent_of_supply": "30.27",
       "label": "Liquidity pool (PumpSwap)"
     },
     {
@@ -674,9 +674,9 @@
       "token_account": "8pmngsdWyttyJPXoxTPLo4UYN9WgWHEYyouRgGNRAXvg",
       "owner": "Gg2FhWHQwQAkjgGdEsq1JKWpPXVCtHL4FAwXpfe8HMyh",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
-      "amount_raw": "56375349388779",
-      "amount": "56375349.388779",
-      "percent_of_supply": "6.38",
+      "amount_raw": "56219184986040",
+      "amount": "56219184.98604",
+      "percent_of_supply": "6.37",
       "label": "Jupiter Lock"
     },
     {
@@ -831,13 +831,13 @@
     },
     {
       "rank": 20,
-      "token_account": "3g6h9h64nEuVdafNA5xZcDNg6zJyPKG26pGSC7SSy7M7",
-      "owner": "9qZCyEWdmZhyC8S4UJEUnjGDbw8tkZ6rmFf3BGzHmZr3",
-      "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
-      "amount_raw": "4166670833330",
-      "amount": "4166670.83333",
-      "percent_of_supply": "0.47",
-      "label": "Jupiter Lock"
+      "token_account": "ERvk6AMP99K2P83X1vfUz7PbRodYwhMbcHpu9Ue1cEVh",
+      "owner": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+      "owner_program": "11111111111111111111111111111111",
+      "amount_raw": "4800722547581",
+      "amount": "4800722.547581",
+      "percent_of_supply": "0.54",
+      "label": null
     }
   ],
   "holders_source": "Largest token accounts were taken from a full getProgramAccounts scan of this mint, sorted by balance, because getTokenLargestAccounts was rate limited on the public RPC.",
