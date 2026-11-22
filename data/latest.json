@@ -8,10 +8,10 @@
     "original_supply_raw": "1000000000000000"
   },
   "updated_at": {
-    "date_utc": "2026-11-21",
-    "utc": "2026-11-21 20:23 UTC",
-    "us_central": "2026-11-21 14:23 CST",
-    "unix": 1795292589
+    "date_utc": "2026-11-22",
+    "utc": "2026-11-22 20:35 UTC",
+    "us_central": "2026-11-22 14:35 CST",
+    "unix": 1795379746
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 472271488
+    "slot": 472676893
   },
   "burned": {
     "raw": "117027602306608",
@@ -29,9 +29,9 @@
     "definition": "original supply minus current getTokenSupply. Not a holder balance and not a Jupiter escrow."
   },
   "jupiter_lock": {
-    "locked_raw": "472560868402582",
-    "locked_ui": "472560868.402582",
-    "percent_of_supply": "53.52",
+    "locked_raw": "468394201735916",
+    "locked_ui": "468394201.735916",
+    "percent_of_supply": "53.05",
     "escrow_count_with_balance": 14,
     "zero_balance_escrow_count": 1,
     "vesting_accounts_scanned": 15,
@@ -242,45 +242,6 @@
         "percent_of_supply": "4.72"
       },
       {
-        "escrow": "6UTqKpUNe1NxThAfdF1HMXqw8TtLTDzuzrwTwvQNC9zZ",
-        "kind": "vesting_escrow",
-        "known_reference": false,
-        "token_accounts": [
-          {
-            "address": "5RRj2qz6BowFPUpLD6XP9UjPXqwaFRMXrfhxzTfHbipJ",
-            "amount_raw": "29166666666662",
-            "amount": "29166666.666662"
-          }
-        ],
-        "amount_raw": "29166666666662",
-        "schedule_decoded": true,
-        "recipient": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
-        "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
-        "schedule": {
-          "vesting_start_time": 1779528600,
-          "vesting_start_utc": "2026-05-23 09:30 UTC",
-          "cliff_time": 1779528600,
-          "cliff_utc": "2026-05-23 09:30 UTC",
-          "frequency_seconds": 2628000,
-          "cliff_unlock_amount_raw": "0",
-          "cliff_unlock_amount": "0",
-          "amount_per_period_raw": "4166666666666",
-          "amount_per_period": "4166666.666666",
-          "number_of_periods": 12,
-          "total_claimed_amount_raw": "20833333333330",
-          "total_claimed_amount": "20833333.33333",
-          "cancelled_at": 0,
-          "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
-          "unlocked_amount_raw": "20833333333330",
-          "unlocked_amount": "20833333.33333",
-          "periods_elapsed": 5,
-          "fully_unlocked_utc": "2027-05-23 09:30 UTC",
-          "next_unlock_utc": "2026-11-21 21:30 UTC"
-        },
-        "schedule_text": "Cliff 2026-05-23 09:30 UTC unlocks 0; then 4,166,666.666666 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-05-23 09:30 UTC; next unlock 2026-11-21 21:30 UTC; claimed 20,833,333.33333",
-        "percent_of_supply": "3.30"
-      },
-      {
         "escrow": "X8ACD4nKbSvurcgZR67yQkdTHjwYy9rwW6qhVGZaqpz",
         "kind": "vesting_escrow",
         "known_reference": false,
@@ -318,6 +279,45 @@
         },
         "schedule_text": "Cliff 2026-06-11 23:19 UTC unlocks 0; then 3,750,000 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-06-11 23:19 UTC; next unlock 2026-12-11 11:19 UTC; claimed 18,750,000",
         "percent_of_supply": "2.97"
+      },
+      {
+        "escrow": "6UTqKpUNe1NxThAfdF1HMXqw8TtLTDzuzrwTwvQNC9zZ",
+        "kind": "vesting_escrow",
+        "known_reference": false,
+        "token_accounts": [
+          {
+            "address": "5RRj2qz6BowFPUpLD6XP9UjPXqwaFRMXrfhxzTfHbipJ",
+            "amount_raw": "24999999999996",
+            "amount": "24999999.999996"
+          }
+        ],
+        "amount_raw": "24999999999996",
+        "schedule_decoded": true,
+        "recipient": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+        "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+        "schedule": {
+          "vesting_start_time": 1779528600,
+          "vesting_start_utc": "2026-05-23 09:30 UTC",
+          "cliff_time": 1779528600,
+          "cliff_utc": "2026-05-23 09:30 UTC",
+          "frequency_seconds": 2628000,
+          "cliff_unlock_amount_raw": "0",
+          "cliff_unlock_amount": "0",
+          "amount_per_period_raw": "4166666666666",
+          "amount_per_period": "4166666.666666",
+          "number_of_periods": 12,
+          "total_claimed_amount_raw": "24999999999996",
+          "total_claimed_amount": "24999999.999996",
+          "cancelled_at": 0,
+          "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
+          "unlocked_amount_raw": "24999999999996",
+          "unlocked_amount": "24999999.999996",
+          "periods_elapsed": 6,
+          "fully_unlocked_utc": "2027-05-23 09:30 UTC",
+          "next_unlock_utc": "2026-12-22 07:30 UTC"
+        },
+        "schedule_text": "Cliff 2026-05-23 09:30 UTC unlocks 0; then 4,166,666.666666 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-05-23 09:30 UTC; next unlock 2026-12-22 07:30 UTC; claimed 24,999,999.999996",
+        "percent_of_supply": "2.83"
       },
       {
         "escrow": "8CJPhy7xg4FAjeM7FqSBGMg9VeV28ELkbMmoab2i3MN1",
@@ -633,9 +633,9 @@
     ]
   },
   "circulating_estimate": {
-    "raw": "410411529290810",
-    "ui": "410411529.29081",
-    "percent_of_supply": "46.48",
+    "raw": "414578195957476",
+    "ui": "414578195.957476",
+    "percent_of_supply": "46.95",
     "definition": "current supply minus Jupiter Lock token-account balances. Estimate: staking pools are not separately identified, and liquidity-pool tokens are not subtracted."
   },
   "holders_top20": [
@@ -644,9 +644,9 @@
       "token_account": "CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n",
       "owner": "7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn",
       "owner_program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
-      "amount_raw": "267278465113267",
-      "amount": "267278465.113267",
-      "percent_of_supply": "30.27",
+      "amount_raw": "267349897710142",
+      "amount": "267349897.710142",
+      "percent_of_supply": "30.28",
       "label": "Liquidity pool (PumpSwap)"
     },
     {
@@ -711,16 +711,6 @@
     },
     {
       "rank": 8,
-      "token_account": "5RRj2qz6BowFPUpLD6XP9UjPXqwaFRMXrfhxzTfHbipJ",
-      "owner": "6UTqKpUNe1NxThAfdF1HMXqw8TtLTDzuzrwTwvQNC9zZ",
-      "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
-      "amount_raw": "29166666666662",
-      "amount": "29166666.666662",
-      "percent_of_supply": "3.30",
-      "label": "Jupiter Lock"
-    },
-    {
-      "rank": 9,
       "token_account": "D8jPjPFTKVzy72beqpT9DmAzFCvT4Ta66sdRzZmWzUYe",
       "owner": "2x62yXUrTWdwFssmmyyaioz7uoLrcGNnZUuCW9Pej9D7",
       "owner_program": "11111111111111111111111111111111",
@@ -730,13 +720,23 @@
       "label": null
     },
     {
-      "rank": 10,
+      "rank": 9,
       "token_account": "5u1SSnsf3kVXV1GzLNuWHm7mNQnJvSo1yqUiRvAxMjQg",
       "owner": "X8ACD4nKbSvurcgZR67yQkdTHjwYy9rwW6qhVGZaqpz",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
       "amount_raw": "26250000000000",
       "amount": "26250000",
       "percent_of_supply": "2.97",
+      "label": "Jupiter Lock"
+    },
+    {
+      "rank": 10,
+      "token_account": "5RRj2qz6BowFPUpLD6XP9UjPXqwaFRMXrfhxzTfHbipJ",
+      "owner": "6UTqKpUNe1NxThAfdF1HMXqw8TtLTDzuzrwTwvQNC9zZ",
+      "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
+      "amount_raw": "24999999999996",
+      "amount": "24999999.999996",
+      "percent_of_supply": "2.83",
       "label": "Jupiter Lock"
     },
     {
@@ -781,6 +781,16 @@
     },
     {
       "rank": 15,
+      "token_account": "ERvk6AMP99K2P83X1vfUz7PbRodYwhMbcHpu9Ue1cEVh",
+      "owner": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+      "owner_program": "11111111111111111111111111111111",
+      "amount_raw": "8867389214247",
+      "amount": "8867389.214247",
+      "percent_of_supply": "1.00",
+      "label": null
+    },
+    {
+      "rank": 16,
       "token_account": "C6ZCS4uRcBiGnGUEHNb6q4qKbJC9fKTEZKTmVehAqQKm",
       "owner": "iwYecboj4ndmXFJesGX5ojcPyxH8X9exX4eJSoHgoAo",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -790,7 +800,7 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "token_account": "5PVsW1G398TS7UhX28qpG8Mdvua4DBY5F46B4SDncXtW",
       "owner": "83WKDEjBzQtZDLWYHXJfhfh5QxgU4FfMwDGY8ojc6hBq",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -800,7 +810,7 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "token_account": "45xxmToxGLYT2hpLnjaMqK8QLMnc3c7VdPTfQeiaSV4D",
       "owner": "4mEe3AnkBJ4w8WCrwd1DK1APrSt5NMUuQDDZ3J9HVpyr",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -810,7 +820,7 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "token_account": "Fc3TfESvcEmNt9T9bYwj9KUuVwn3yqP842ctaJNMe23s",
       "owner": "9jSRcv5D6NKYRVoVu8vT9vKLNwcJXneVwsHw2R1nkXHf",
       "owner_program": "11111111111111111111111111111111",
@@ -820,23 +830,13 @@
       "label": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "token_account": "6Sb1p5YV5XnYP3or1vAZSw66W5f8xSqGeUDnFihSx2ny",
       "owner": "tTvpTo2EkdupVkUq9DF476MHHWce9J6WH11ojK8AKQQ",
       "owner_program": "11111111111111111111111111111111",
       "amount_raw": "5304180146695",
       "amount": "5304180.146695",
       "percent_of_supply": "0.60",
-      "label": null
-    },
-    {
-      "rank": 20,
-      "token_account": "ERvk6AMP99K2P83X1vfUz7PbRodYwhMbcHpu9Ue1cEVh",
-      "owner": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
-      "owner_program": "11111111111111111111111111111111",
-      "amount_raw": "4800722547581",
-      "amount": "4800722.547581",
-      "percent_of_supply": "0.54",
       "label": null
     }
   ],
