@@ -9,9 +9,9 @@
   },
   "updated_at": {
     "date_utc": "2026-11-24",
-    "utc": "2026-11-24 01:29 UTC",
-    "us_central": "2026-11-23 19:29 CST",
-    "unix": 1795483749
+    "utc": "2026-11-24 23:23 UTC",
+    "us_central": "2026-11-24 17:23 CST",
+    "unix": 1795562599
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 473160463
+    "slot": 473527262
   },
   "burned": {
     "raw": "117027602306608",
@@ -427,13 +427,13 @@
           "total_claimed_amount": "333333.333332",
           "cancelled_at": 0,
           "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
-          "unlocked_amount_raw": "333333333332",
-          "unlocked_amount": "333333.333332",
-          "periods_elapsed": 2,
+          "unlocked_amount_raw": "499999999998",
+          "unlocked_amount": "499999.999998",
+          "periods_elapsed": 3,
           "fully_unlocked_utc": "2031-08-24 16:35 UTC",
-          "next_unlock_utc": "2026-11-24 22:35 UTC"
+          "next_unlock_utc": "2026-12-25 08:35 UTC"
         },
-        "schedule_text": "Cliff 2026-08-25 16:35 UTC unlocks 0; then 166,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-24 16:35 UTC; next unlock 2026-11-24 22:35 UTC; claimed 333,333.333332",
+        "schedule_text": "Cliff 2026-08-25 16:35 UTC unlocks 0; then 166,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-24 16:35 UTC; next unlock 2026-12-25 08:35 UTC; claimed 333,333.333332",
         "percent_of_supply": "1.09"
       },
       {

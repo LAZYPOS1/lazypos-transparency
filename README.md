@@ -2,7 +2,7 @@
 
 Figures are read straight from the Solana blockchain and updated daily.
 
-Last updated: 2026-11-24 01:29 UTC and 2026-11-23 19:29 CST (US Central). Supply slot 473160463.
+Last updated: 2026-11-24 23:23 UTC and 2026-11-24 17:23 CST (US Central). Supply slot 473527262.
 
 | Metric | Tokens | Share |
 | --- | ---: | --- |
@@ -34,7 +34,7 @@ Unlock times are shown only when the escrow account matches the Jupiter Lock ves
 | `6UTqKpUNe1NxThAfdF1HMXqw8TtLTDzuzrwTwvQNC9zZ` | 24,999,999.999996 | 2.83% | Cliff 2026-05-23 09:30 UTC unlocks 0; then 4,166,666.666666 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-05-23 09:30 UTC; next unlock 2026-12-22 07:30 UTC; claimed 24,999,999.999996 |
 | `8CJPhy7xg4FAjeM7FqSBGMg9VeV28ELkbMmoab2i3MN1` | 18,333,333.333315 | 2.08% | Cliff 2026-08-04 05:15 UTC unlocks 0; then 555,555.555555 every 2,628,000 seconds (365/12 days) for 36 periods; fully unlocks 2029-08-03 05:15 UTC; next unlock 2026-12-03 21:15 UTC; claimed 1,666,666.666665 |
 | `F8cfionqBpGYSEdk5KbFBAfazvD2v9YE8ciZYdvCcP1q` | 18,049,999.999962 | 2.04% | Cliff 2026-08-13 20:15 UTC unlocks 0; then 316,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-12 20:15 UTC; next unlock 2026-12-13 12:15 UTC; claimed 949,999.999998 |
-| `6RjCHSkGut6yqyYCq94qhQCCkFSJdw3RWvJ3piMWwMc2` | 9,666,666.666628 | 1.09% | Cliff 2026-08-25 16:35 UTC unlocks 0; then 166,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-24 16:35 UTC; next unlock 2026-11-24 22:35 UTC; claimed 333,333.333332 |
+| `6RjCHSkGut6yqyYCq94qhQCCkFSJdw3RWvJ3piMWwMc2` | 9,666,666.666628 | 1.09% | Cliff 2026-08-25 16:35 UTC unlocks 0; then 166,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-24 16:35 UTC; next unlock 2026-12-25 08:35 UTC; claimed 333,333.333332 |
 | `iwYecboj4ndmXFJesGX5ojcPyxH8X9exX4eJSoHgoAo` | 6,708,337.166659 | 0.76% | Cliff 2026-09-30 08:30 UTC unlocks 0; then 291,666.833333 every 2,628,000 seconds (365/12 days) for 24 periods; fully unlocks 2028-09-29 08:30 UTC; next unlock 2026-11-30 04:30 UTC; claimed 291,666.833333 |
 | `83WKDEjBzQtZDLWYHXJfhfh5QxgU4FfMwDGY8ojc6hBq` | 5,833,337.5 | 0.66% | Cliff 2026-09-08 15:13 UTC unlocks 0; then 583,333.75 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-09-08 15:13 UTC; next unlock 2026-12-08 21:13 UTC; claimed 1,166,667.5 |
 | `4mEe3AnkBJ4w8WCrwd1DK1APrSt5NMUuQDDZ3J9HVpyr` | 5,000,004.16666 | 0.57% | Cliff 2026-09-23 12:09 UTC unlocks 0; then 500,000.416666 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-09-23 12:09 UTC; next unlock 2026-12-23 18:09 UTC; claimed 1,000,000.833332 |
