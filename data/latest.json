@@ -8,10 +8,10 @@
     "original_supply_raw": "1000000000000000"
   },
   "updated_at": {
-    "date_utc": "2026-11-24",
-    "utc": "2026-11-24 23:23 UTC",
-    "us_central": "2026-11-24 17:23 CST",
-    "unix": 1795562599
+    "date_utc": "2026-11-25",
+    "utc": "2026-11-25 18:50 UTC",
+    "us_central": "2026-11-25 12:50 CST",
+    "unix": 1795632608
   },
   "rpc_endpoints": [
     "https://api.mainnet-beta.solana.com",
@@ -20,7 +20,7 @@
   "supply": {
     "raw": "882972397693392",
     "ui": "882972397.693392",
-    "slot": 473527262
+    "slot": 473852867
   },
   "burned": {
     "raw": "117027602306608",
@@ -29,14 +29,14 @@
     "definition": "original supply minus current getTokenSupply. Not a holder balance and not a Jupiter escrow."
   },
   "jupiter_lock": {
-    "locked_raw": "467894201319250",
-    "locked_ui": "467894201.31925",
-    "percent_of_supply": "52.99",
+    "locked_raw": "497727538652504",
+    "locked_ui": "497727538.652504",
+    "percent_of_supply": "56.37",
     "escrow_count_with_balance": 14,
-    "zero_balance_escrow_count": 1,
-    "vesting_accounts_scanned": 15,
+    "zero_balance_escrow_count": 2,
+    "vesting_accounts_scanned": 16,
     "root_accounts_scanned": 0,
-    "schedules_decoded": 15,
+    "schedules_decoded": 16,
     "verification": {
       "program_id": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
       "program_executable": true,
@@ -46,6 +46,45 @@
       "note": "Lock program account is executable. Reference escrow 51EH7rNnbU5ZRvcCNNDuk16kevwbQE22uV9AZsRan7om is owned by that program and is included in the scan."
     },
     "escrows": [
+      {
+        "escrow": "7upKqUpChoancUwHCEv7RWYnyrjqhq8U44syv1nV42kB",
+        "kind": "vesting_escrow",
+        "known_reference": false,
+        "token_accounts": [
+          {
+            "address": "8gMyiQthfzx4t1LyBJHQbZD5469P4CbW3wS4rW28KMrG",
+            "amount_raw": "130000003999920",
+            "amount": "130000003.99992"
+          }
+        ],
+        "amount_raw": "130000003999920",
+        "schedule_decoded": true,
+        "recipient": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+        "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+        "schedule": {
+          "vesting_start_time": 1858908600,
+          "vesting_start_utc": "2028-11-27 03:30 UTC",
+          "cliff_time": 1858908600,
+          "cliff_utc": "2028-11-27 03:30 UTC",
+          "frequency_seconds": 2628000,
+          "cliff_unlock_amount_raw": "0",
+          "cliff_unlock_amount": "0",
+          "amount_per_period_raw": "1083333366666",
+          "amount_per_period": "1083333.366666",
+          "number_of_periods": 120,
+          "total_claimed_amount_raw": "0",
+          "total_claimed_amount": "0",
+          "cancelled_at": 0,
+          "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
+          "unlocked_amount_raw": "0",
+          "unlocked_amount": "0",
+          "periods_elapsed": 0,
+          "fully_unlocked_utc": "2038-11-25 03:30 UTC",
+          "next_unlock_utc": "2028-12-27 13:30 UTC"
+        },
+        "schedule_text": "Cliff 2028-11-27 03:30 UTC unlocks 0; then 1,083,333.366666 every 2,628,000 seconds (365/12 days) for 120 periods; fully unlocks 2038-11-25 03:30 UTC; next unlock 2028-12-27 13:30 UTC; claimed 0",
+        "percent_of_supply": "14.72"
+      },
       {
         "escrow": "Fi5k3MW1ycvx3cq2sXA7SxYyUPErjkZMfLNuGgA7fWU1",
         "kind": "vesting_escrow",
@@ -84,45 +123,6 @@
         },
         "schedule_text": "Cliff 2026-06-18 13:40 UTC unlocks 0; then 50,500,000 every 365 days for 2 periods; fully unlocks 2028-06-17 13:40 UTC; next unlock 2027-06-18 13:40 UTC; claimed 0",
         "percent_of_supply": "11.44"
-      },
-      {
-        "escrow": "F9pyB4ckuzDzyA5XZbiSfBT6uDNWWyTBxHiG9RepjkrG",
-        "kind": "vesting_escrow",
-        "known_reference": false,
-        "token_accounts": [
-          {
-            "address": "36A7sLiaLaiYBBcXeGWaTutSTarG98gVAquG9Uoev6sE",
-            "amount_raw": "100000000000000",
-            "amount": "100000000"
-          }
-        ],
-        "amount_raw": "100000000000000",
-        "schedule_decoded": true,
-        "recipient": "2afNTbgAoqJLv6YYzK7WfcS2YvJqbPLuyY16HhduE2Ds",
-        "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
-        "schedule": {
-          "vesting_start_time": 1764037800,
-          "vesting_start_utc": "2025-11-25 02:30 UTC",
-          "cliff_time": 1764037800,
-          "cliff_utc": "2025-11-25 02:30 UTC",
-          "frequency_seconds": 31536000,
-          "cliff_unlock_amount_raw": "0",
-          "cliff_unlock_amount": "0",
-          "amount_per_period_raw": "100000000000000",
-          "amount_per_period": "100000000",
-          "number_of_periods": 1,
-          "total_claimed_amount_raw": "0",
-          "total_claimed_amount": "0",
-          "cancelled_at": 0,
-          "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
-          "unlocked_amount_raw": "0",
-          "unlocked_amount": "0",
-          "periods_elapsed": 0,
-          "fully_unlocked_utc": "2026-11-25 02:30 UTC",
-          "next_unlock_utc": "2026-11-25 02:30 UTC"
-        },
-        "schedule_text": "Cliff 2025-11-25 02:30 UTC unlocks 0; then 100,000,000 every 365 days for 1 period; fully unlocks 2026-11-25 02:30 UTC; claimed 0",
-        "percent_of_supply": "11.33"
       },
       {
         "escrow": "Gg2FhWHQwQAkjgGdEsq1JKWpPXVCtHL4FAwXpfe8HMyh",
@@ -404,11 +404,11 @@
         "token_accounts": [
           {
             "address": "23cj9KNLZ9mQVT7CDu94iERPfDxtErLcC1gpzJ5m2fxq",
-            "amount_raw": "9666666666628",
-            "amount": "9666666.666628"
+            "amount_raw": "9499999999962",
+            "amount": "9499999.999962"
           }
         ],
-        "amount_raw": "9666666666628",
+        "amount_raw": "9499999999962",
         "schedule_decoded": true,
         "recipient": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
         "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
@@ -423,8 +423,8 @@
           "amount_per_period_raw": "166666666666",
           "amount_per_period": "166666.666666",
           "number_of_periods": 60,
-          "total_claimed_amount_raw": "333333333332",
-          "total_claimed_amount": "333333.333332",
+          "total_claimed_amount_raw": "499999999998",
+          "total_claimed_amount": "499999.999998",
           "cancelled_at": 0,
           "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
           "unlocked_amount_raw": "499999999998",
@@ -433,8 +433,8 @@
           "fully_unlocked_utc": "2031-08-24 16:35 UTC",
           "next_unlock_utc": "2026-12-25 08:35 UTC"
         },
-        "schedule_text": "Cliff 2026-08-25 16:35 UTC unlocks 0; then 166,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-24 16:35 UTC; next unlock 2026-12-25 08:35 UTC; claimed 333,333.333332",
-        "percent_of_supply": "1.09"
+        "schedule_text": "Cliff 2026-08-25 16:35 UTC unlocks 0; then 166,666.666666 every 2,628,000 seconds (365/12 days) for 60 periods; fully unlocks 2031-08-24 16:35 UTC; next unlock 2026-12-25 08:35 UTC; claimed 499,999.999998",
+        "percent_of_supply": "1.08"
       },
       {
         "escrow": "iwYecboj4ndmXFJesGX5ojcPyxH8X9exX4eJSoHgoAo",
@@ -629,13 +629,51 @@
         },
         "schedule_text": "Cliff 2026-04-18 03:00 UTC unlocks 0; then 50,000,000 every 15,768,000 seconds (365/2 days) for 1 period; fully unlocks 2026-10-17 15:00 UTC; claimed 50,000,000",
         "percent_of_supply": "0.00"
+      },
+      {
+        "escrow": "F9pyB4ckuzDzyA5XZbiSfBT6uDNWWyTBxHiG9RepjkrG",
+        "kind": "vesting_escrow",
+        "known_reference": false,
+        "token_accounts": [
+          {
+            "address": "36A7sLiaLaiYBBcXeGWaTutSTarG98gVAquG9Uoev6sE",
+            "amount_raw": "0",
+            "amount": "0"
+          }
+        ],
+        "amount_raw": "0",
+        "schedule_decoded": true,
+        "recipient": "2afNTbgAoqJLv6YYzK7WfcS2YvJqbPLuyY16HhduE2Ds",
+        "creator": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
+        "schedule": {
+          "vesting_start_time": 1764037800,
+          "vesting_start_utc": "2025-11-25 02:30 UTC",
+          "cliff_time": 1764037800,
+          "cliff_utc": "2025-11-25 02:30 UTC",
+          "frequency_seconds": 31536000,
+          "cliff_unlock_amount_raw": "0",
+          "cliff_unlock_amount": "0",
+          "amount_per_period_raw": "100000000000000",
+          "amount_per_period": "100000000",
+          "number_of_periods": 1,
+          "total_claimed_amount_raw": "100000000000000",
+          "total_claimed_amount": "100000000",
+          "cancelled_at": 0,
+          "rule": "Before cliff_time, unlocked is 0. After that, unlocked = cliff_unlock_amount + amount_per_period * min(number_of_periods, floor((now - cliff_time) / frequency)). Full unlock is at cliff_time + frequency * number_of_periods.",
+          "unlocked_amount_raw": "100000000000000",
+          "unlocked_amount": "100000000",
+          "periods_elapsed": 1,
+          "fully_unlocked_utc": "2026-11-25 02:30 UTC"
+        },
+        "schedule_text": "Cliff 2025-11-25 02:30 UTC unlocks 0; then 100,000,000 every 365 days for 1 period; fully unlocks 2026-11-25 02:30 UTC; claimed 100,000,000",
+        "percent_of_supply": "0.00"
       }
     ]
   },
   "circulating_estimate": {
-    "raw": "415078196374142",
-    "ui": "415078196.374142",
-    "percent_of_supply": "47.01",
+    "raw": "385244859040888",
+    "ui": "385244859.040888",
+    "percent_of_supply": "43.63",
     "definition": "current supply minus Jupiter Lock token-account balances. Estimate: staking pools are not separately identified, and liquidity-pool tokens are not subtracted."
   },
   "holders_top20": [
@@ -644,29 +682,29 @@
       "token_account": "CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n",
       "owner": "7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn",
       "owner_program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
-      "amount_raw": "266413255190117",
-      "amount": "266413255.190117",
-      "percent_of_supply": "30.17",
+      "amount_raw": "266512534333466",
+      "amount": "266512534.333466",
+      "percent_of_supply": "30.18",
       "label": "Liquidity pool (PumpSwap)"
     },
     {
       "rank": 2,
+      "token_account": "8gMyiQthfzx4t1LyBJHQbZD5469P4CbW3wS4rW28KMrG",
+      "owner": "7upKqUpChoancUwHCEv7RWYnyrjqhq8U44syv1nV42kB",
+      "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
+      "amount_raw": "130000003999920",
+      "amount": "130000003.99992",
+      "percent_of_supply": "14.72",
+      "label": "Jupiter Lock"
+    },
+    {
+      "rank": 3,
       "token_account": "4Sk5rB4TBFWvkDWFspbK3JWHwjsyUPiQSrcbcnTLJheD",
       "owner": "Fi5k3MW1ycvx3cq2sXA7SxYyUPErjkZMfLNuGgA7fWU1",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
       "amount_raw": "101000000000000",
       "amount": "101000000",
       "percent_of_supply": "11.44",
-      "label": "Jupiter Lock"
-    },
-    {
-      "rank": 3,
-      "token_account": "36A7sLiaLaiYBBcXeGWaTutSTarG98gVAquG9Uoev6sE",
-      "owner": "F9pyB4ckuzDzyA5XZbiSfBT6uDNWWyTBxHiG9RepjkrG",
-      "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
-      "amount_raw": "100000000000000",
-      "amount": "100000000",
-      "percent_of_supply": "11.33",
       "label": "Jupiter Lock"
     },
     {
@@ -704,9 +742,9 @@
       "token_account": "8wxsYwXzkZRGE7NBWGaMSLSF9LHp1BRQyzM9epAYaGuJ",
       "owner": "G6qqhy358WzBfHAsUnnj3puPfUC6i7Ev3QaVBaaLMqoj",
       "owner_program": "gLHaGJsZ6G7AXZxoDL9EsSWkRbKAWhFHi73gVfNXuzK",
-      "amount_raw": "31798540314087",
-      "amount": "31798540.314087",
-      "percent_of_supply": "3.60",
+      "amount_raw": "30622899894648",
+      "amount": "30622899.894648",
+      "percent_of_supply": "3.47",
       "label": "StakePoint"
     },
     {
@@ -741,16 +779,6 @@
     },
     {
       "rank": 11,
-      "token_account": "Fxot2Q3NDDCm9jZ59hhT7HQA7o7DsjjjxZmjzdHpDBtE",
-      "owner": "G6qqhy358WzBfHAsUnnj3puPfUC6i7Ev3QaVBaaLMqoj",
-      "owner_program": "gLHaGJsZ6G7AXZxoDL9EsSWkRbKAWhFHi73gVfNXuzK",
-      "amount_raw": "23647646257645",
-      "amount": "23647646.257645",
-      "percent_of_supply": "2.68",
-      "label": "StakePoint"
-    },
-    {
-      "rank": 12,
       "token_account": "E1GJvJpjshycim3nyaa2whdbx1pnnDVPQZD8JwokNGt1",
       "owner": "8CJPhy7xg4FAjeM7FqSBGMg9VeV28ELkbMmoab2i3MN1",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -760,7 +788,7 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "token_account": "9ot5APgSYobTfTyHVb1pFSiGyd7EaFdCF5m9kx7MBWXH",
       "owner": "F8cfionqBpGYSEdk5KbFBAfazvD2v9YE8ciZYdvCcP1q",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -770,27 +798,17 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 14,
-      "token_account": "ERvk6AMP99K2P83X1vfUz7PbRodYwhMbcHpu9Ue1cEVh",
-      "owner": "74LSwKGqSVFkuCkbEgbmQrGd6BJDfBVPkBCAiL9AUS9p",
-      "owner_program": "11111111111111111111111111111111",
-      "amount_raw": "10367389630913",
-      "amount": "10367389.630913",
-      "percent_of_supply": "1.17",
-      "label": null
-    },
-    {
-      "rank": 15,
+      "rank": 13,
       "token_account": "23cj9KNLZ9mQVT7CDu94iERPfDxtErLcC1gpzJ5m2fxq",
       "owner": "6RjCHSkGut6yqyYCq94qhQCCkFSJdw3RWvJ3piMWwMc2",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
-      "amount_raw": "9666666666628",
-      "amount": "9666666.666628",
-      "percent_of_supply": "1.09",
+      "amount_raw": "9499999999962",
+      "amount": "9499999.999962",
+      "percent_of_supply": "1.08",
       "label": "Jupiter Lock"
     },
     {
-      "rank": 16,
+      "rank": 14,
       "token_account": "C6ZCS4uRcBiGnGUEHNb6q4qKbJC9fKTEZKTmVehAqQKm",
       "owner": "iwYecboj4ndmXFJesGX5ojcPyxH8X9exX4eJSoHgoAo",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -800,7 +818,17 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 17,
+      "rank": 15,
+      "token_account": "Fxot2Q3NDDCm9jZ59hhT7HQA7o7DsjjjxZmjzdHpDBtE",
+      "owner": "G6qqhy358WzBfHAsUnnj3puPfUC6i7Ev3QaVBaaLMqoj",
+      "owner_program": "gLHaGJsZ6G7AXZxoDL9EsSWkRbKAWhFHi73gVfNXuzK",
+      "amount_raw": "5917205320002",
+      "amount": "5917205.320002",
+      "percent_of_supply": "0.67",
+      "label": "StakePoint"
+    },
+    {
+      "rank": 16,
       "token_account": "5PVsW1G398TS7UhX28qpG8Mdvua4DBY5F46B4SDncXtW",
       "owner": "83WKDEjBzQtZDLWYHXJfhfh5QxgU4FfMwDGY8ojc6hBq",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
@@ -810,7 +838,7 @@
       "label": "Jupiter Lock"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "token_account": "Fc3TfESvcEmNt9T9bYwj9KUuVwn3yqP842ctaJNMe23s",
       "owner": "9jSRcv5D6NKYRVoVu8vT9vKLNwcJXneVwsHw2R1nkXHf",
       "owner_program": "11111111111111111111111111111111",
@@ -820,7 +848,7 @@
       "label": null
     },
     {
-      "rank": 19,
+      "rank": 18,
       "token_account": "6Sb1p5YV5XnYP3or1vAZSw66W5f8xSqGeUDnFihSx2ny",
       "owner": "tTvpTo2EkdupVkUq9DF476MHHWce9J6WH11ojK8AKQQ",
       "owner_program": "11111111111111111111111111111111",
@@ -830,13 +858,23 @@
       "label": null
     },
     {
-      "rank": 20,
+      "rank": 19,
       "token_account": "45xxmToxGLYT2hpLnjaMqK8QLMnc3c7VdPTfQeiaSV4D",
       "owner": "4mEe3AnkBJ4w8WCrwd1DK1APrSt5NMUuQDDZ3J9HVpyr",
       "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
       "amount_raw": "5000004166660",
       "amount": "5000004.16666",
       "percent_of_supply": "0.57",
+      "label": "Jupiter Lock"
+    },
+    {
+      "rank": 20,
+      "token_account": "3g6h9h64nEuVdafNA5xZcDNg6zJyPKG26pGSC7SSy7M7",
+      "owner": "9qZCyEWdmZhyC8S4UJEUnjGDbw8tkZ6rmFf3BGzHmZr3",
+      "owner_program": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
+      "amount_raw": "4166670833330",
+      "amount": "4166670.83333",
+      "percent_of_supply": "0.47",
       "label": "Jupiter Lock"
     }
   ],
