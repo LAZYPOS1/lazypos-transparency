@@ -2,14 +2,14 @@
 
 Figures are read straight from the Solana blockchain and updated daily.
 
-Last updated: 2026-11-25 22:57 UTC and 2026-11-25 16:57 CST (US Central). Supply slot 473921720.
+Last updated: 2026-11-26 22:49 UTC and 2026-11-26 16:49 CST (US Central). Supply slot 474321560.
 
 | Metric | Tokens | Share |
 | --- | ---: | --- |
 | Current supply | 882,972,397.693392 | 100% of current supply |
 | Burned | 117,027,602.306608 | 11.70% of original 1,000,000,000 |
-| Jupiter locked | 497,727,538.652504 | 56.37% of current supply |
-| Circulating estimate | 385,244,859.040888 | 43.63% of current supply |
+| Jupiter locked | 495,644,205.319171 | 56.13% of current supply |
+| Circulating estimate | 387,328,192.374221 | 43.87% of current supply |
 
 Burned tokens are already removed from current supply (original supply minus `getTokenSupply`). Jupiter-locked tokens are still inside current supply. Circulating estimate = current supply − Jupiter locked. This is an estimate. Staking pools are not separately identified yet, so staked tokens are still included. Liquidity-pool balances are still included too.
 
@@ -29,7 +29,7 @@ Unlock times are shown only when the escrow account matches the Jupiter Lock ves
 | `Fi5k3MW1ycvx3cq2sXA7SxYyUPErjkZMfLNuGgA7fWU1` | 101,000,000 | 11.44% | Cliff 2026-06-18 13:40 UTC unlocks 0; then 50,500,000 every 365 days for 2 periods; fully unlocks 2028-06-17 13:40 UTC; next unlock 2027-06-18 13:40 UTC; claimed 0 |
 | `Gg2FhWHQwQAkjgGdEsq1JKWpPXVCtHL4FAwXpfe8HMyh` | 56,219,184.98604 | 6.37% | Cliff 2026-10-17 18:40 UTC unlocks 0; then 156,164.402739 every 7 days for 365 periods; fully unlocks 2033-10-15 18:40 UTC; next unlock 2026-11-28 18:40 UTC; claimed 780,822.013695 |
 | `51EH7rNnbU5ZRvcCNNDuk16kevwbQE22uV9AZsRan7om` | 50,000,000 | 5.66% | Cliff 2025-12-04 17:30 UTC unlocks 0; then 50,000,000 every 365 days for 1 period; fully unlocks 2026-12-04 17:30 UTC; claimed 0 |
-| `2uJKBDNLRVeHX2x5xdEMsBEgjpVP2pSsFLTv3kQ3CyXZ` | 41,666,666.66666 | 4.72% | Cliff 2026-06-26 22:30 UTC unlocks 0; then 2,083,333.333333 every 2,628,000 seconds (365/12 days) for 24 periods; fully unlocks 2028-06-25 22:30 UTC; next unlock 2026-11-26 00:30 UTC; claimed 8,333,333.333332 |
+| `2uJKBDNLRVeHX2x5xdEMsBEgjpVP2pSsFLTv3kQ3CyXZ` | 39,583,333.333327 | 4.48% | Cliff 2026-06-26 22:30 UTC unlocks 0; then 2,083,333.333333 every 2,628,000 seconds (365/12 days) for 24 periods; fully unlocks 2028-06-25 22:30 UTC; next unlock 2026-12-26 10:30 UTC; claimed 10,416,666.666665 |
 | `X8ACD4nKbSvurcgZR67yQkdTHjwYy9rwW6qhVGZaqpz` | 26,250,000 | 2.97% | Cliff 2026-06-11 23:19 UTC unlocks 0; then 3,750,000 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-06-11 23:19 UTC; next unlock 2026-12-11 11:19 UTC; claimed 18,750,000 |
 | `6UTqKpUNe1NxThAfdF1HMXqw8TtLTDzuzrwTwvQNC9zZ` | 24,999,999.999996 | 2.83% | Cliff 2026-05-23 09:30 UTC unlocks 0; then 4,166,666.666666 every 2,628,000 seconds (365/12 days) for 12 periods; fully unlocks 2027-05-23 09:30 UTC; next unlock 2026-12-22 07:30 UTC; claimed 24,999,999.999996 |
 | `8CJPhy7xg4FAjeM7FqSBGMg9VeV28ELkbMmoab2i3MN1` | 18,333,333.333315 | 2.08% | Cliff 2026-08-04 05:15 UTC unlocks 0; then 555,555.555555 every 2,628,000 seconds (365/12 days) for 36 periods; fully unlocks 2029-08-03 05:15 UTC; next unlock 2026-12-03 21:15 UTC; claimed 1,666,666.666665 |
@@ -46,12 +46,12 @@ Largest token accounts were taken from a full getProgramAccounts scan of this mi
 
 | # | Token account | Owner | Amount | % of supply | Label |
 | ---: | --- | --- | ---: | ---: | --- |
-| 1 | `CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n` | `7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn` | 266,512,534.333466 | 30.18% | Liquidity pool (PumpSwap) |
+| 1 | `CqB9eSKWoLszxYQVihafRggeJmEq96TqdiGwb9Xg1H6n` | `7Z82HCGMkKh1z9aXEduPTnZc42aRV3R3ruCxeh1XZgqn` | 265,354,635.302874 | 30.05% | Liquidity pool (PumpSwap) |
 | 2 | `8gMyiQthfzx4t1LyBJHQbZD5469P4CbW3wS4rW28KMrG` | `7upKqUpChoancUwHCEv7RWYnyrjqhq8U44syv1nV42kB` | 130,000,003.99992 | 14.72% | Jupiter Lock |
 | 3 | `4Sk5rB4TBFWvkDWFspbK3JWHwjsyUPiQSrcbcnTLJheD` | `Fi5k3MW1ycvx3cq2sXA7SxYyUPErjkZMfLNuGgA7fWU1` | 101,000,000 | 11.44% | Jupiter Lock |
 | 4 | `8pmngsdWyttyJPXoxTPLo4UYN9WgWHEYyouRgGNRAXvg` | `Gg2FhWHQwQAkjgGdEsq1JKWpPXVCtHL4FAwXpfe8HMyh` | 56,219,184.98604 | 6.37% | Jupiter Lock |
 | 5 | `EyqLVoWiQCSAGPyzDE3g2AvcpD1SDv6znysCA6U2kFqu` | `51EH7rNnbU5ZRvcCNNDuk16kevwbQE22uV9AZsRan7om` | 50,000,000 | 5.66% | Jupiter Lock |
-| 6 | `5gxYUPNtdY2qrnsA4FtEHP79UQjPsPYmCEJrAkVu7Asn` | `2uJKBDNLRVeHX2x5xdEMsBEgjpVP2pSsFLTv3kQ3CyXZ` | 41,666,666.66666 | 4.72% | Jupiter Lock |
+| 6 | `5gxYUPNtdY2qrnsA4FtEHP79UQjPsPYmCEJrAkVu7Asn` | `2uJKBDNLRVeHX2x5xdEMsBEgjpVP2pSsFLTv3kQ3CyXZ` | 39,583,333.333327 | 4.48% | Jupiter Lock |
 | 7 | `8wxsYwXzkZRGE7NBWGaMSLSF9LHp1BRQyzM9epAYaGuJ` | `G6qqhy358WzBfHAsUnnj3puPfUC6i7Ev3QaVBaaLMqoj` | 30,622,899.894648 | 3.47% | StakePoint |
 | 8 | `D8jPjPFTKVzy72beqpT9DmAzFCvT4Ta66sdRzZmWzUYe` | `2x62yXUrTWdwFssmmyyaioz7uoLrcGNnZUuCW9Pej9D7` | 28,164,576.443887 | 3.19% | — |
 | 9 | `5u1SSnsf3kVXV1GzLNuWHm7mNQnJvSo1yqUiRvAxMjQg` | `X8ACD4nKbSvurcgZR67yQkdTHjwYy9rwW6qhVGZaqpz` | 26,250,000 | 2.97% | Jupiter Lock |
